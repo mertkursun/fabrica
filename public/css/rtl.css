@@ -1,0 +1,294 @@
+html {
+    direction: rtl;
+    text-align: right;
+}
+.navbar-brand {
+    margin-right: 0;
+}
+.ml-auto, .mx-auto {
+    margin-right: auto!important;
+    margin-left: 0 !important;
+}
+.preloader .loader {
+    top: 50%;
+    right: 50%;
+}
+.navbar-light .navbar-nav .nav-item:first-child {
+    padding-right: 0;
+    padding-left: 13px;
+}
+.navbar-light .navbar-nav .nav-item:last-child {
+    padding-left: 0;
+    padding-right: 13px;
+}
+.main-banner-content .btn-box .video-btn i {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.ms-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+.about-content {
+    padding-right: 10px;
+    padding-left: 0;
+    text-align: right;
+}
+.example-demo-modal .header-title .example-demo-modal-control {
+    left: 25px;
+    right: auto;
+}
+.about-content ul li {
+    padding-right: 18px;
+    padding-left: 0;
+}
+.about-content ul li::before {
+    right: 0;
+    left: auto;
+}
+.about-image .col-lg-6:first-child .image img {
+    border-radius: 0px 25px 0 0;
+}
+.about-image .col-lg-6:nth-child(2) .image img {
+    border-radius: 25px 0px 0 0;
+}
+.about-image .col-lg-6:nth-child(3) .image img {
+    border-radius: 0 0 25px 0;
+}
+.about-image .col-lg-6:last-child .image img {
+    border-radius: 0 0 0 25px;
+}
+.cta-content {
+    text-align: right;
+}
+.text-right {
+    text-align: left !important;
+}
+.single-services .services-content {
+    text-align: right;
+}
+.who-we-are .section-title {
+    text-align: right;
+}
+.who-we-are .content {
+    text-align: right;
+}
+.who-we-are .content ul li {
+    float: right;
+    padding-right: 18px;
+    padding-left: 0;
+}
+.who-we-are .content ul li::before {
+    right: 0;
+    left: auto;
+}
+.skill-content .section-title {
+    text-align: right;
+}
+.skill-content .skills .skill-item .skill-header .skill-title {
+    text-align: right;
+}
+.skill-content .skills .skill-item .skill-header .skill-percentage {
+    left: 0;
+    right: auto;
+}
+.tabs_item_content {
+    text-align: right;
+}
+.tab .tabs_item .tabs_item_content ul li {
+    float: right;
+    padding-right: 18px;
+    padding-left: 0;
+}
+.tab .tabs_item .tabs_item_content ul li::before {
+    right: 0;
+    left: auto;
+}
+.funfacts-area .section-title {
+    text-align: right;
+}
+.testimonial-item {
+    border-left: 3px solid #000000;
+    border-right: none;
+    padding: 30px 125px 30px 0;
+    text-align: right;
+}
+.testimonial-item .client-image {
+    right: 20px;
+    left: auto;
+}
+.accordion .accordion-item {
+    text-align: right;
+}
+.accordion .accordion-item .accordion-title i {
+    left: 10px;
+    right: auto;
+}
+.single-blog-post .blog-post-content {
+    text-align: right;
+}
+.single-blog-post .blog-image .post-tag {
+    right: 0;
+    left: auto;
+}
+.newsletter form button {
+    left: 7px;
+    right: auto;
+}
+.contact-form {
+    text-align: right;
+}
+.contact-info {
+    text-align: right;
+}
+.contact-info ul li {
+    padding-right: 60px;
+    padding-left: 0;
+}
+.contact-info ul li i {
+    right: 0;
+    left: auto;
+}
+.skill-content .skills .skill-item .skill-bar .react-sweet-progress-symbol {
+    top: -28px;
+    right: auto;
+    left: 0;
+}
+.footer-area ul {
+    text-align: left;
+}
+.footer-area {
+    text-align: right;
+}
+.shorting-menu .filter::before {
+    right: -22px;
+    left: auto;
+}
+.skill-content .skills .skill-item .skill-bar .bar-inner .bar {
+    right: 0;
+    left: auto
+}
+.counter-wrap .single-counter h2 {
+    right: 0;
+    left: auto;
+}
+.counter-wrap .single-counter {
+    padding-right: 125px;
+    padding-left: 0;
+    margin-right: 40px;
+    margin-left: 0;
+    text-align: right;
+}
+.post-tag-media ul.social-share {
+    text-align: left;
+}
+.post-tag-media ul {
+    text-align: right;
+}
+.post-tag-media ul li span {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.offset-lg-1 {
+    margin-right: 8.333333%;
+    margin-left: 0;
+}
+.go-top {
+    left: 15px;
+    right: auto;
+}
+.error-content .search-form .search-submit {
+    left: 0;
+    right: auto;
+}
+.error-content .search-form .search-field {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.main-banner.main-banner-with-form .main-banner-content {
+    text-align: right;
+}
+.banner-form {
+    text-align: right;
+}
+.testimonial-item::after, .testimonial-item::before {
+    right: -17px;
+    left: auto;
+}
+.testimonial-item::before {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.testimonial-item::after {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.main-banner-content h1 .typewrite {
+    margin-left: 0;
+    margin-right: 12px;
+}
+.accordion__button:before {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.accordion .accordion__item .accordion__button {
+    text-align: right;
+}
+.newsletter form .form-control {
+    padding-right: 30px;
+}
+
+/* LTR CSS */
+.owl-carousel, .bx-wrapper {
+    direction: ltr;
+}
+.owl-carousel .owl-item {
+    direction: rtl;
+}
+
+ 
+/* RTL responsive css*/
+@media only screen and (max-width: 767px) {
+    .counter-wrap .single-counter {
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        padding-right: 85px !important;
+    }
+    .post-tag-media ul {
+        text-align: center;
+    }
+    .offset-lg-1 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .cta-area .cta-content {
+        text-align: center;
+    }
+    .go-top {
+        left: 10px !important;
+        right: auto !important;
+    }
+    .navbar-light .navbar-nav .nav-item:first-child {
+        padding-left: 0 !important;
+    }
+    .testimonial-item {
+        padding: 30px;
+    }
+    .footer-area {
+        text-align: center;
+    }
+    .footer-area ul {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .counter-wrap .single-counter {
+        padding-left: 0 !important;
+        margin-right: 0 !important;
+        padding-right: 100px !important;
+    }
+    .navbar-light .navbar-nav .nav-item:first-child {
+        padding-left: 0 !important;
+    }
+}
