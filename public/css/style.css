@@ -3894,6 +3894,10 @@ textarea.form-control {
   color: #212529;
 }
 
+.select__control .select__indicator-separator {
+  width: 0px !important;
+}
+
 .select__menu {
   z-index: 9 !important;
 }
