@@ -205,7 +205,7 @@ img {
     &:hover,
     &:focus {
         box-shadow: unset;
-        border-color: $main-color;
+        border-color: $main-color !important;
     }
 }
 
@@ -346,7 +346,7 @@ Navbar CSS
     top: 0;
     width: 100%;
     z-index: 9;
-    padding: 25px 0 0;
+    padding: 15px 0;
     height: auto;
 
     &.is-sticky {
@@ -579,7 +579,7 @@ Main Banner CSS
 
 .item-bg2 {
     background: {
-        image: url(/images/banner1.jpeg);
+        image: url(/images/banner.png);
     }
 }
 
@@ -1255,7 +1255,16 @@ Features CSS
     text-align: center;
     margin-bottom: 30px;
     transition: $transition;
-
+    .image {
+        img {
+            width: 100px;
+        }
+        &.software {
+            img {
+                width: 110px;
+            }
+        }
+    }
     .icon {
         font: {
             size: 45px;
@@ -1477,7 +1486,7 @@ CTA CSS
         size: cover;
         attachment: fixed;
         repeat: no-repeat;
-        image: url(/images/cta-bg.jpeg);
+        image: url(/images/cta-bg.png);
     }
 
     padding: {
@@ -1608,6 +1617,7 @@ Services CSS
 
     .services-content {
         padding: 30px;
+        height: 230px;
 
         h3 {
             font: {
@@ -2071,7 +2081,7 @@ Portfolio CSS
                 width: 100%;
                 bottom: 0;
                 height: 50%;
-                background: $main-color;
+                background: rgba(109, 197, 228, .8);
                 right: -100%;
             }
 
@@ -2079,7 +2089,7 @@ Portfolio CSS
                 content: '';
                 transition: $transition;
                 position: absolute;
-                background: $main-color;
+                background: rgba(109, 197, 228, .8);
                 top: 0;
                 height: 50%;
                 width: 100%;
@@ -2543,7 +2553,7 @@ Story CSS
         size: cover;
         attachment: fixed;
         repeat: no-repeat;
-        image: url(/images/cta-bg.jpeg);
+        image: url(/images/cta-bg.png);
     }
 
     &::before {
@@ -2811,7 +2821,11 @@ Testimonial CSS
         position: absolute;
         top: 30px;
         left: 20px;
-
+        background-color: #fff;
+        i {
+            font-size: 80px;
+            color: black;
+        }
         img {
             border-radius: 50%;
 
@@ -3252,11 +3266,12 @@ Partner CSS
 
     a {
         display: block;
-        padding: 25px 15px;
+        padding: 5px;
 
         img {
             display: inline-block !important;
-            width: auto !important;
+            width: 150px !important;
+            height: 150px !important;
             transition: $transition;
         }
     }
@@ -3440,6 +3455,16 @@ Contact CSS
     box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
     background-color: $white-color;
     padding: 40px;
+
+    .phoneInput {
+input {
+    border: 1px solid #eeeeee;
+        font-size: 14px;
+        border-radius: 0px;
+        height: 55px;
+}
+        
+    }
 
     h2 {
         margin-bottom: 27px;
@@ -4146,4 +4171,43 @@ Go Top CSS
 
 textarea.form-control {
     height: auto !important;
+}
+
+.phoneInput {
+    input {
+        width: 100% !important;
+    }
+    .flag-dropdown  {
+        background-color: #fff !important;
+    height: 48px !important;
+    top: 1px !important;
+    border: none !important;
+    left: 1px !important;
+    }
+}
+
+.select__control {
+    min-height: 50px !important;
+    border: 1px solid #eeeeee !important;
+    font-size: 14px;
+    border-radius: 2px !important;
+    font-weight: 600;
+    outline: none !important;
+    &:focus-visible {
+        outline: none !important;
+    }
+    &:hover,
+    &:focus {
+        box-shadow: unset;
+        border-color: $main-color !important;
+    }
+    .select__value-container {
+        padding-left: 20px;
+        .select__single-value {
+            color: #212529;
+        }
+    }
+}
+.select__menu {
+    z-index: 9 !important;
 }

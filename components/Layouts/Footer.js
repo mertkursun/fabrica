@@ -17,28 +17,13 @@ class Footer extends Component {
                         <div className="col-lg-6 col-md-5">
                             <ul>
                                 <li>
-                                    <Link href="#">
-                                        <a><i className="icofont-facebook"></i></a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a><i className="icofont-twitter"></i></a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
+                                    <Link href="https://www.instagram.com/fabricabt/">
                                         <a><i className="icofont-instagram"></i></a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.linkedin.com/company/fabrica-bt-dan%C4%B1%C5%9Fmanl%C4%B1k/">
                                         <a><i className="icofont-linkedin"></i></a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="#">
-                                        <a><i className="icofont-pinterest"></i></a>
                                     </Link>
                                 </li>
                             </ul>

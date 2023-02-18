@@ -10,7 +10,7 @@ class AboutUs extends Component {
                             <div className="row about-image">
                                 <div className="col-6 col-lg-6 col-md-6">
                                     <div className="image">
-                                        <img src="/images/about-img1.jpg" alt="about" />
+                                        <img src="/images/about-img1.png" alt="about" />
                                     </div>
                                 </div>
 
@@ -28,7 +28,7 @@ class AboutUs extends Component {
 
                                 <div className="col-6 col-lg-6 col-md-6">
                                     <div className="image mt-30">
-                                        <img src="/images/about-img4.jpg" alt="about" />
+                                        <img src="/images/about-img4.png" alt="about" />
                                     </div>
                                 </div>
                             </div>

@@ -193,7 +193,7 @@ img {
 .form-control:hover, .form-control:focus {
   -webkit-box-shadow: unset;
           box-shadow: unset;
-  border-color: #6DC5E4;
+  border-color: #6DC5E4 !important;
 }
 
 /* section-title */
@@ -349,7 +349,7 @@ Navbar CSS
   top: 0;
   width: 100%;
   z-index: 9;
-  padding: 25px 0 0;
+  padding: 15px 0;
   height: auto;
 }
 
@@ -550,7 +550,7 @@ Main Banner CSS
 }
 
 .item-bg2 {
-  background-image: url(/images/banner1.jpeg);
+  background-image: url(/images/banner.png);
 }
 
 .item-bg3 {
@@ -1238,6 +1238,14 @@ Features CSS
   transition: 0.5s;
 }
 
+.single-features .image img {
+  width: 100px;
+}
+
+.single-features .image.software img {
+  width: 110px;
+}
+
 .single-features .icon {
   font-size: 45px;
   -webkit-transition: 0.5s;
@@ -1420,7 +1428,7 @@ CTA CSS
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url(/images/cta-bg.jpeg);
+  background-image: url(/images/cta-bg.png);
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -1546,6 +1554,7 @@ Services CSS
 
 .single-services .services-content {
   padding: 30px;
+  height: 230px;
 }
 
 .single-services .services-content h3 {
@@ -1975,7 +1984,7 @@ Portfolio CSS
   width: 100%;
   bottom: 0;
   height: 50%;
-  background: #6DC5E4;
+  background: rgba(109, 197, 228, 0.8);
   right: -100%;
 }
 
@@ -1984,7 +1993,7 @@ Portfolio CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   position: absolute;
-  background: #6DC5E4;
+  background: rgba(109, 197, 228, 0.8);
   top: 0;
   height: 50%;
   width: 100%;
@@ -2404,7 +2413,7 @@ Story CSS
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url(/images/cta-bg.jpeg);
+  background-image: url(/images/cta-bg.png);
 }
 
 .story-area::before {
@@ -2657,6 +2666,12 @@ Testimonial CSS
   position: absolute;
   top: 30px;
   left: 20px;
+  background-color: #fff;
+}
+
+.testimonial-item .client-image i {
+  font-size: 80px;
+  color: black;
 }
 
 .testimonial-item .client-image img {
@@ -3033,12 +3048,13 @@ Partner CSS
 
 .partner-item a {
   display: block;
-  padding: 25px 15px;
+  padding: 5px;
 }
 
 .partner-item a img {
   display: inline-block !important;
-  width: auto !important;
+  width: 150px !important;
+  height: 150px !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3199,6 +3215,13 @@ Contact CSS
           box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   background-color: #ffffff;
   padding: 40px;
+}
+
+.contact-form .phoneInput input {
+  border: 1px solid #eeeeee;
+  font-size: 14px;
+  border-radius: 0px;
+  height: 55px;
 }
 
 .contact-form h2 {
@@ -3830,5 +3853,48 @@ Go Top CSS
 
 textarea.form-control {
   height: auto !important;
+}
+
+.phoneInput input {
+  width: 100% !important;
+}
+
+.phoneInput .flag-dropdown {
+  background-color: #fff !important;
+  height: 48px !important;
+  top: 1px !important;
+  border: none !important;
+  left: 1px !important;
+}
+
+.select__control {
+  min-height: 50px !important;
+  border: 1px solid #eeeeee !important;
+  font-size: 14px;
+  border-radius: 2px !important;
+  font-weight: 600;
+  outline: none !important;
+}
+
+.select__control:focus-visible {
+  outline: none !important;
+}
+
+.select__control:hover, .select__control:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  border-color: #6DC5E4 !important;
+}
+
+.select__control .select__value-container {
+  padding-left: 20px;
+}
+
+.select__control .select__value-container .select__single-value {
+  color: #212529;
+}
+
+.select__menu {
+  z-index: 9 !important;
 }
 /*# sourceMappingURL=style.css.map */

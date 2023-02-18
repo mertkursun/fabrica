@@ -58,7 +58,8 @@ $transition: .5s;
     }
 
     .navbar {
-        padding: 15px 0 0;
+        padding: 10px 0;
+        border-bottom: none;
 
         &.navbar.is-sticky {
             padding: 10px 0;
@@ -171,7 +172,7 @@ $transition: .5s;
     .main-banner {
         height: 100%;
         padding: {
-            top: 160px;
+            top: 100px;
             bottom: 100px;
         }
         &.main-banner-with-form {
@@ -783,7 +784,8 @@ $transition: .5s;
     }
 
     .navbar {
-        padding: 15px 0 0;
+        padding: 10px 0;
+        border-bottom: none;
 
         &.navbar.is-sticky {
             padding: 15px 0;
@@ -902,7 +904,7 @@ $transition: .5s;
         &.main-banner-with-form {
             height: 100%;
             padding: {
-                top: 200px;
+                top: 140px;
                 bottom: 140px;
             }
         }

@@ -16,30 +16,26 @@ import Subscribe from '../components/HomeEighteen/Subscribe';
 import ContactForm from '../components/HomeEighteen/ContactForm';
 import Footer from '../components/Layouts/Footer';
 
-class Index18 extends Component {
-    render() {
-        return (
-            <>
-                <Navbar /> 
-                <MainBannerNineteen />
-                <OurFeatures />
-                <AboutUs />
-                <CtaArea />
-                <OurServices />
-                <OurPortfolio />
-                <FunFacts /> 
-                <OurTestimonials />
-                <OurStory />
-                <Faq /> 
-                <BlogSlider /> 
-                <CtaArea /> 
-                <Partner /> 
-                <Subscribe />
-                <ContactForm />
-                <Footer />
-            </>
-        );
-    }
+class Index extends Component {
+  render() {
+    return (
+      <>
+        <Navbar />
+        <MainBannerNineteen />
+        <OurFeatures />
+        <AboutUs />
+        <CtaArea />
+        <OurServices />
+        <OurPortfolio />
+        <OurStory />
+        <OurTestimonials />
+        <Partner />
+        <Subscribe />
+        <ContactForm />
+        <Footer />
+      </>
+    );
+  }
 }
 
-export default Index18;
+export default Index;

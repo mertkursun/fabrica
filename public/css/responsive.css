@@ -31,7 +31,8 @@
     font-size: 13px;
   }
   .navbar {
-    padding: 15px 0 0;
+    padding: 10px 0;
+    border-bottom: none;
   }
   .navbar.navbar.is-sticky {
     padding: 10px 0;
@@ -107,7 +108,7 @@
   }
   .main-banner {
     height: 100%;
-    padding-top: 160px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   .main-banner.main-banner-with-form {
@@ -555,7 +556,8 @@
     font-size: 30px;
   }
   .navbar {
-    padding: 15px 0 0;
+    padding: 10px 0;
+    border-bottom: none;
   }
   .navbar.navbar.is-sticky {
     padding: 15px 0;
@@ -636,7 +638,7 @@
   }
   .main-banner.main-banner-with-form {
     height: 100%;
-    padding-top: 200px;
+    padding-top: 140px;
     padding-bottom: 140px;
   }
   .banner-form {
