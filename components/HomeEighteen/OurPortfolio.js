@@ -87,12 +87,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 0, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[0]} alt="Work Image" />
@@ -113,12 +111,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 1, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[1]} alt="Work Image" />
@@ -139,12 +135,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 2, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[2]} alt="Work Image" />
@@ -165,12 +159,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 3, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[3]} alt="Work Image" />
@@ -191,12 +183,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 3, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[4]} alt="Work Image" />
@@ -217,12 +207,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 4, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[5]} alt="Work Image" />
@@ -243,12 +231,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[6]} alt="Work Image" />
@@ -268,12 +254,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[7]} alt="Work Image" />
@@ -293,12 +277,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[8]} alt="Work Image" />
@@ -318,12 +300,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[9]} alt="Work Image" />
@@ -343,12 +323,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[10]} alt="Work Image" />
@@ -368,12 +346,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[11]} alt="Work Image" />
@@ -393,12 +369,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[12]} alt="Work Image" />
@@ -418,12 +392,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[13]} alt="Work Image" />
@@ -443,12 +415,10 @@ class OurPortfolio extends Component {
 									animateOnce={true}
 								>
 									<div className="single-work">
-										<Link href="#">
 											<a
 												className="popup-btn"
 												onClick={e => { e.preventDefault(); this.setState({ photoIndex: 5, isOpen: false }) }}
 											></a>
-										</Link>
 
 										<div className="work-image">
 											<img src={images[14]} alt="Work Image" />
