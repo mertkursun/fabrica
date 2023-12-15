@@ -158,7 +158,7 @@ class MainBannerNineteen extends Component {
 													/>
 												</div>
 												<div className="text-center">
-													<button type="submit" className="btn btn-primary">Başvurusu Yap</button>
+													<button type="submit" className="btn btn-primary">Başvuru Yap</button>
 												</div>
 											</form>
 										</div>

@@ -39,7 +39,7 @@ class OurStory extends Component {
 										<a className="btn btn-primary" onClick={() => {
 											let intervalId = setInterval(this.onScrollStep, "15.50");
 											this.setState({ intervalId: intervalId });
-										}}>Demo Başvurusu Yap</a>
+										}}>Başvuru Yap</a>
 									</div>
 								</div>
 							</ScrollAnimation>
